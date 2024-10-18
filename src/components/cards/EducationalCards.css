@@ -1,0 +1,76 @@
+.cards-section{
+    padding: 65px;
+    text-align: center;
+}
+
+.cards-section h2{
+   color: var(--segunda-cor);
+   font-size: 34px;
+   margin-bottom: 20px;
+}
+
+.cards-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   gap: 20px;
+   justify-content: center;
+   align-items: stretch;
+}
+
+.card{
+   background-color: var(--quinta-cor);
+   border: 1px solid var(--quarta-cor);
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card-icon i{
+   font-size: 40px;
+   color: var(--terceira-cor);
+}
+
+.card h3{
+    margin: 10px 0;
+    color: var(--segunda-cor);
+}
+
+.card p{
+    margin: 5px 0;
+    color: var(--quarta-cor);
+}
+
+.card-info{
+   margin: 10px 0;
+   color: var(--quarta-cor);
+   font-size: 14px;
+}
+
+.card-info span{
+    display: block;
+    padding: 5px 10px;
+}
+
+.subscribe-btn{
+    background-color: var(--segunda-cor);
+    color: var(--quinta-cor);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover{
+    background-color: var(--terceira-cor);
+}
+
+@media (max-widh: 768px){
+   .cards-container{
+     grid-template-columns: 1fr;
+   }
+}

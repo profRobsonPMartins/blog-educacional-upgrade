@@ -1,0 +1,174 @@
+.hero {
+    position: relative;
+    padding: 50px 20px;
+    background-image: url(../img/04.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cap {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    font-size: 80px; 
+    color: var(--segunda-cor);
+  }
+  
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .hero-text {
+    text-align: start;
+  }
+  
+  .subheading {
+    color: var(--quarta-cor);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: var(--primeira-cor);
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    width: 80%;
+    height: 5px;
+    background-color: var(--terceira-cor);
+    margin: 0 auto 20px 0;
+  }
+  
+  .description {
+    color: var(--quarta-cor);
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primeira-cor);
+    font-size: 1rem;
+  }
+  
+  .icon {
+    color: var(--terceira-cor);
+    font-size: 1.2rem;
+  }
+  
+  /* Estilo do formulário */
+  .hero-form {
+    background-color: var(--quinta-cor);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-form h2 {
+    color: var(--segunda-cor);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .hero-form p {
+    color: var(--quarta-cor);
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .hero-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .hero-form input {
+    padding: 10px;
+    border: 1px solid var(--quarta-cor);
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hero-form button {
+    padding: 10px;
+    background-color: var(--segunda-cor);
+    color: var(--quinta-cor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .hero-form button:hover {
+    background-color: var(--terceira-cor);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .cap {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-content {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+  
+    .hero-text {
+      text-align: left;
+    }
+  
+    .features {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    .hero-form {
+      text-align: left;
+    }
+  
+    .hero-form h2 {
+      font-size: 2rem;
+    }
+  
+    .hero-form input {
+      font-size: 1.1rem;
+    }
+  
+    .hero-form button {
+      font-size: 1.1rem;
+    }
+  }
+  

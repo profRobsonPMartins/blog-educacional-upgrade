@@ -1,0 +1,81 @@
+.newsletter-section{
+   background-image: url(../img/education.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.newsletter-container{
+   background-color: rgba(25, 29, 50, 0.9);
+   padding: 48px;
+   text-align: center;
+   max-width: 400px;
+}
+
+.newsletter-container h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 32px;
+   color: var(--terceira-cor);
+   margin-bottom: 16px;
+}
+
+.newsletter-container h2{
+    font-size: 19.2px;
+    color: var(--quinta-cor);
+    margin-bottom: 8px;
+}
+
+.newsletter-container h3{
+    font-size: 32px;
+    color: var(--quinta-cor);
+    margin-bottom: 24px;
+}
+.newsletter-container span{
+    color: var(--quinta-cor);    
+}
+
+.newsletter-container p{
+    color: var(--quinta-cor);
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form input{
+    padding: 20px 16px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 70%;
+    background-color: var(--quinta-cor);
+}
+
+.newsletter-form button{
+    padding: 12px;
+    border-radius: 0 8px 8px 0;
+    background-color: var(--sexta-cor);
+    color: var(--quinta-cor);
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover{
+    background-color: var(--terceira-cor);
+}
+
+@media (max-width: 768px){
+    .newsletter-container{
+        max-width: 80%;
+    }
+}

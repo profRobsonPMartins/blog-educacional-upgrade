@@ -1,0 +1,96 @@
+.latest-blogs {
+    background-color: var(--quinta-cor); /* Fundo da seção */
+    color: var(--primeira-cor); /* Texto principal */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .latest-blogs h2 {
+    font-size: 2rem;
+    color: var(--terceira-cor); /* Cor de destaque */
+    margin-bottom: 10px;
+  }
+  
+  .latest-blogs p {
+    font-size: 1.1rem;
+    color: var(--quarta-cor); /* Texto secundário */
+    margin-bottom: 30px;
+  }
+  
+  .blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cards */
+  }
+  
+  .blog-card {
+    background-color: var(--segunda-cor); /* Fundo do card */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Largura total em dispositivos pequenos */
+    max-width: 350px; /* Largura máxima do card */
+    transition: transform 0.3s; /* Efeito de transição */
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px); /* Efeito ao passar o mouse */
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: 35%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-date {
+    font-size: 0.9rem;
+    color: var(--quarta-cor); /* Cor secundária */
+    margin-bottom: 10px;
+  }
+  
+  .blog-title {
+    font-size: 1.5rem;
+    color: var(--terceira-cor); /* Cor de destaque */
+    margin: 10px 0;
+  }
+  
+  .blog-description {
+    font-size: 1rem;
+    color: var(--quinta-cor); /* Texto principal */
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  
+  .read-more-btn {
+    background-color: transparent; /* Cor do botão */
+    color: var(--quinta-cor); /* Texto do botão */
+    border: 2px solid var(--quarta-cor);
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição de cor */
+  }
+  
+  .read-more-btn:hover {
+    background-color: var(--quarta-cor); /* Cor ao passar o mouse */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .latest-blogs {
+      padding: 20px 10px; /* Menos padding em telas menores */
+    }
+  
+    .blog-card {
+      width: 100%; /* Os cards ocupam toda a largura em telas menores */
+    }
+  }
+  

@@ -1,9 +1,10 @@
 import React from "react";
 import './EducationalCards.css'
+import { useNavigate } from "react-router-dom";
 
 const cards = [
 
-    { title: 'Matemática e Tecnologia', teacher: 'Prof. Joanie M. Reid', students: 21, classes: 36, icon: 'fa-calculator' },
+    { title: 'Matemática e Tecnologia', teacher: 'Prof. Joanie M. Reid', students: 21, classes: 36, icon: 'fa-calculator', path: '/matematica' },
     { title: 'Física Aplicada a Tecnologia', teacher: 'Prof. Joanie M. Reid', students: 18, classes: 30, icon: 'fa-rocket' },
     { title: 'Quimica Digital', teacher: 'Prof. Joanie M. Reid', students: 20, classes: 34, icon: 'fa-flask' },
     { title: 'Hstória e Inteligência Artificial', teacher: 'Prof. Joanie M. Reid', students: 15, classes: 25, icon: 'fa-robot' },
@@ -15,7 +16,16 @@ const cards = [
 
 ]
 
+
+
+
 const EducationalCards = () => {
+
+    const navigate = useNavigate();
+
+    const handleSubscribreClick = (path) =>{
+        navigate(path)
+    }
 
     return (
         <section className="cards-section">
@@ -37,7 +47,9 @@ const EducationalCards = () => {
                             <span><i className="fas fa-users"> {card.students} </i> Students</span>
                             <span><i className="fas fa-book-open"> {card.classes} </i> Classes</span>
                         </div>
-                        <button className="subscribe-btn">Subscribe Now</button>
+                        <button className="subscribe-btn" onClick={() => handleSubscribreClick(card.path)}>
+                            Subscribe Now
+                        </button>
                     </div>
                  ))}
             </div>

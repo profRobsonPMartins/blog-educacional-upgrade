@@ -1,24 +1,44 @@
-import './App.css';
+
+// Import de HOOKS e Bibliotecas ou ferramentas
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Conteudo Principal
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import AssuntosDestaque from './components/assuntos/AssuntosDestaque';
 import EducationalCards from './components/cards/EducationalCards';
+import Testimonials from './components/testimonials/Testimonials';
+import LatestBlogs from './components/latest/LatestBlogs';
 import Newsletter from './components/newsletter/Newsletter';
 import Footer from './components/footer/Footer';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Conteudo de redirecionamento
+import MathContent from './components/pages/MathContent';
 
 function App() {
   return (
-    <div className="App">
-       <>
-       <Header/>
-       <Hero/>
-       <AssuntosDestaque/>
-       <EducationalCards/>
-       <Newsletter/>
-       <Footer/>
-       </>
-    </div>
+
+    <Router>
+      <Header />
+      <Routes>
+        <Route path='/'
+          element={
+            <>
+              <Hero />
+              <AssuntosDestaque />
+              <EducationalCards />
+              <Testimonials />
+              <LatestBlogs/>
+              <Newsletter />
+            </>
+          } />
+        <Route path="/matematica" element={<MathContent />} />
+      </Routes>
+      <Footer />
+    </Router>
+
+
   );
 }
 

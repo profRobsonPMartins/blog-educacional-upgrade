@@ -1,0 +1,37 @@
+.blog-detail {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  
+  .blog-date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  .visit-department-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #01c246; /* Cor personalizada */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .visit-department-btn:hover {
+    background-color: #028a36; /* Tom mais escuro para hover */
+  }
+  

@@ -1,0 +1,37 @@
+.history-container {
+    padding: 20px;
+    background-color: var(--quinta-cor);
+    color: var(--primeira-cor);
+  }
+  
+  .history-container h1 {
+    color: var(--terceira-cor);
+  }
+  
+  .history-container h2 {
+    color: var(--segunda-cor);
+  }
+  
+  .history-container p {
+    line-height: 1.6;
+  }
+  
+  .history-container ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .history-container button {
+    background-color: var(--sexta-cor);
+    color: var(--quinta-cor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .history-container button:hover {
+    background-color: var(--quarta-cor);
+  }
+  

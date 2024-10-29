@@ -1,0 +1,36 @@
+.geography-container {
+    padding: 20px;
+    background-color: var(--quinta-cor);
+    color: var(--primeira-cor);
+  }
+  
+  .geography-container h1 {
+    color: var(--terceira-cor);
+  }
+  
+  .geography-container h2 {
+    color: var(--segunda-cor);
+  }
+  
+  .geography-container p {
+    line-height: 1.6;
+  }
+  
+  .geography-container ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .geography-container button {
+    background-color: var(--sexta-cor);
+    color: var(--quinta-cor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .geography-container button:hover {
+    background-color: var(--quarta-cor);
+  }

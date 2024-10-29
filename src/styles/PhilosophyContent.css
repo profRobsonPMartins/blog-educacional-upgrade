@@ -1,0 +1,36 @@
+.philosophy-container {
+    padding: 20px;
+    background-color: var(--quinta-cor);
+    color: var(--primeira-cor);
+  }
+  
+  .philosophy-container h1 {
+    color: var(--terceira-cor);
+  }
+  
+  .philosophy-container h2 {
+    color: var(--segunda-cor);
+  }
+  
+  .philosophy-container p {
+    line-height: 1.6;
+  }
+  
+  .philosophy-container ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .philosophy-container button {
+    background-color: var(--sexta-cor);
+    color: var(--quinta-cor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .philosophy-container button:hover {
+    background-color: var(--quarta-cor);
+  }

@@ -1,0 +1,36 @@
+.physics-container {
+    padding: 20px;
+    background-color: var(--quinta-cor);
+    color: var(--primeira-cor);
+  }
+  
+  .physics-container h1 {
+    color: var(--terceira-cor);
+  }
+  
+  .physics-container h2 {
+    color: var(--segunda-cor);
+  }
+  
+  .physics-container p {
+    line-height: 1.6;
+  }
+  
+  .physics-container ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .physics-container button {
+    background-color: var(--sexta-cor);
+    color: var(--quinta-cor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .physics-container button:hover {
+    background-color: var(--quarta-cor);
+  } 

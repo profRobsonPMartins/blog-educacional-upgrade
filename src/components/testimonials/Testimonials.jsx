@@ -3,6 +3,22 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Testimonials.css';
+import aluno01 from  '../img/aluna-ana.jpeg';
+import aluno02 from  '../img/aluna-ariane.jpeg';
+import aluno03 from  '../img/aluna-lays.jpeg';
+import aluno04 from  '../img/aluna-lyana.jpeg';
+import aluno05 from  '../img/aluna-maria.jpeg';
+import aluno06 from  '../img/aluna-natalia.jpeg';
+import aluno07 from  '../img/aluna-yasmin.jpeg';
+import aluno08 from  '../img/aluno-diego.jpeg';
+import aluno09 from  '../img/aluno-geovane.jpeg';
+import aluno10 from  '../img/aluno-kaua.jpeg';
+import aluno11 from  '../img/aluno-pedro.jpeg';
+import aluno12 from '../img/aluno-diego-nunes.jpeg'
+import aluno13 from '../img/aluno-mateus-mendes.jpeg'
+import aluno14 from '../img/aluna-daiana.jpeg'
+
+
 
 const Testimonials = () => {
   const settings = {
@@ -33,121 +49,121 @@ const Testimonials = () => {
 
   const comments = [
     {
-      name: "Ana",
+      name: "Ana Luiza",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno01,
       comment: "Desenvolver aplicações web foi incrível! A lógica da programação foi um desafio, mas os professores ajudaram.",
     },
     {
-      name: "Carlos",
-      role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      name: "Ariane Julia",
+      role: "Aluna",
+      image: aluno02,
       comment: "O curso me deu a chance de trabalhar no front-end e back-end. Agora me sinto confiante para criar aplicações.",
     },
     {
-      name: "Fernanda",
+      name: "Lays Gomes",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno03,
       comment: "Os projetos práticos foram essenciais. Tive dificuldades com algumas linguagens, mas foi gratificante.",
     },
     {
-      name: "Lucas",
-      role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      name: "Lyana Tamashiro",
+      role: "Aluna",
+      image: aluno04,
       comment: "Programar não é fácil. Enfrentei muitos erros, mas aprendi com eles e agora vejo a programação mais clara.",
     },
     {
-      name: "Mariana",
+      name: "Maria Clara",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno05,
       comment: "Aprender React e Node.js foi desafiador, mas recompensador. Nunca pensei que conseguiria construir uma aplicação!",
     },
     {
-      name: "João",
-      role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      name: "Natalia Cubas",
+      role: "Aluna",
+      image: aluno06,
       comment: "O maior desafio foi aprender a debugar o código. Com prática, aprendi a identificar problemas rapidamente.",
     },
     {
-      name: "Julia",
+      name: "Yasmin Morato",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno07,
       comment: "As aulas de lógica foram fundamentais. Ajudaram-me a desenvolver raciocínio crítico e resolver problemas.",
     },
     {
-      name: "Felipe",
+      name: "Diego Cunha",
       role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      image: aluno08,
       comment: "Trabalhar em grupo foi valioso. Aprendi a colaborar e ouvir ideias diferentes, enriquecendo meu aprendizado.",
     },
     {
-      name: "Bianca",
-      role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      name: "Geovane Martins",
+      role: "Aluno",
+      image:aluno09,
       comment: "O curso me ensinou que a programação é iterativa. Encontrar dificuldades é normal; persistir é essencial.",
     },
     {
-      name: "Renato",
+      name: "Kaua Franco",
       role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      image: aluno10,
       comment: "Criar uma aplicação no navegador foi emocionante. Ver o código ganhar vida não tem preço!",
     },
     {
-      name: "Sofia",
-      role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      name: "Pedro Henrique",
+      role: "Aluno",
+      image: aluno11,
       comment: "Entender bancos de dados foi desafiador, mas agora tenho uma boa base para construir aplicações dinâmicas.",
     },
     {
-      name: "Ricardo",
-      role: "Aluno",
+      name: "Leticia Dias",
+      role: "Aluna",
       image: 'https://via.placeholder.com/80',
       comment: "Tive dificuldades com sintaxes, mas após praticar, tudo começou a fazer sentido. Prática leva à perfeição!",
     },
     {
-      name: "Gabriela",
-      role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      name: "Mateus Mendes",
+      role: "Aluno",
+      image: aluno13,
       comment: "Desenvolver uma API foi interessante. Entender a comunicação entre sistemas me deu nova perspectiva.",
     },
     {
-      name: "André",
-      role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      name: "Daiana Araujo",
+      role: "Aluna",
+      image: aluno14,
       comment: "No início, desanimei por não conseguir fazer funcionar. Ao pedir ajuda, percebi que todos passam por isso.",
     },
     {
-      name: "Clara",
-      role: "Aluna",
+      name: "Antony Ian",
+      role: "Aluno",
       image: 'https://via.placeholder.com/80',
       comment: "Participar de hackathons ajudou a aplicar o que aprendi. A pressão de entregar rápido melhorou meu aprendizado.",
     },
     {
-      name: "Leonardo",
-      role: "Aluno",
+      name: "Vitoria Maria",
+      role: "Aluna",
       image: 'https://via.placeholder.com/80',
       comment: "O curso me mostrou que programação é mais que código; é sobre resolver problemas e criar soluções.",
     },
     {
-      name: "Natália",
-      role: "Aluna",
+      name: "Eric Rocha",
+      role: "Aluno",
       image: 'https://via.placeholder.com/80',
       comment: "As revisões e feedback dos professores foram essenciais. Ajudaram-me a melhorar meu código e entender mais.",
     },
     {
-      name: "Gustavo",
-      role: "Aluno",
+      name: "Laiza Barreto",
+      role: "Aluna",
       image: 'https://via.placeholder.com/80',
       comment: "A transição de teoria para prática foi desafiadora, mas recompensadora. Ver o projeto finalizado motivou-me muito.",
     },
     {
-      name: "Tânia",
-      role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      name: "Diego Nunes",
+      role: "Aluno",
+      image: aluno12,
       comment: "O mais difícil foi lidar com a frustração de não resolver problemas. Aprendi a ser resiliente e persistente.",
     },
     {
-      name: "Daniel",
+      name: "Diego Neves",
       role: "Aluno",
       image: 'https://via.placeholder.com/80',
       comment: "O desenvolvimento ágil me fascinou. Trabalhar em sprints e melhorar continuamente foi incrível!",

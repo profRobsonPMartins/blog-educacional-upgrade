@@ -29,7 +29,7 @@ const AssuntosDestaque = () => {
                     <i className="fas fa-book"></i>
                     <h3>Leitura</h3>
                     <p>Descubra o poder da leitura e como ela pode enriquecer seu conhecimento e criatividade.</p>
-                    <button className="topic-button" onClick={() => window.open('https://www.goodreads.com', '_blank')}>
+                    <button className="topic-button" onClick={() => window.open('https://www.todamateria.com.br/lingua-portuguesa/', '_blank')}>
                         Saiba Mais
                     </button>
                 </div>
@@ -38,7 +38,7 @@ const AssuntosDestaque = () => {
                     <i className="fas fa-balance-scale"></i>
                     <h3>Equilíbrio</h3>
                     <p>Aprenda sobre a importância do equilíbrio entre vida pessoal e profissional.</p>
-                    <button className="topic-button" onClick={() => window.open('https://www.mindtools.com', '_blank')}>
+                    <button className="topic-button" onClick={() => window.open('https://tcc-psicologia.onrender.com/', '_blank')}>
                         Saiba Mais
                     </button>
                 </div>

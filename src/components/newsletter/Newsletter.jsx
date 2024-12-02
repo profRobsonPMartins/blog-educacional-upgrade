@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const Contact = () => {
+const Newsletter = () => {
 
     // Lógica aqui
     const [email, setEmail] = useState("")
@@ -45,4 +45,4 @@ const Contact = () => {
         </form>
     )
 }
-export default Contact;
+export default Newsletter;
